@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div>
         <ul className='u1'>
-            <li><Link to={'/'} style={{textDecoration:"none",color:"purple",textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)'}}>Home</Link></li>
+            <li><Link to={'/Portfolio'} style={{textDecoration:"none",color:"purple",textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)'}}>Home</Link></li>
             <li><Link to={'/About'} style={{textDecoration:"none",color:"purple",textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)'}}>About</Link></li>
             <li><Link to={'/Services'} style={{textDecoration:"none",color:"purple",textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)'}}>Services</Link></li>
             <li><Link to={'/Education'} style={{textDecoration:"none",color:"purple",textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)'}}>Education</Link></li>

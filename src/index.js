@@ -17,7 +17,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const allroutes=createBrowserRouter(
   [
     {
-      path:'/',
+      path:'/Portfolio',
       element:<Home/>
     },
     {
