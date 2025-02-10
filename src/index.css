@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.u1{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    background-color: rgb(244, 137, 155);
+}
+
+li{
+    list-style: none;
+    font-size: 25px;
+}
