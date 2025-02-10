@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.63c801f8.css",
+    "main.js": "/Portfolio/static/js/main.61bbb17e.js",
+    "static/js/373.96184f55.chunk.js": "/Portfolio/static/js/373.96184f55.chunk.js",
+    "static/media/CV.pdf": "/Portfolio/static/media/CV.440d0a73371bb83f9085.pdf",
+    "static/media/p1.jpg": "/Portfolio/static/media/p1.4d37c83f745359181e29.jpg",
+    "static/media/p5.jpg": "/Portfolio/static/media/p5.6031f09c12c13ee68fee.jpg",
+    "static/media/tanish.jpg": "/Portfolio/static/media/tanish.cc63128ed758abf8a8e0.jpg",
+    "static/media/p3.jpg": "/Portfolio/static/media/p3.15af4f158e0614711c4f.jpg",
+    "static/media/p4.jpg": "/Portfolio/static/media/p4.f681af2972cec40f69b3.jpg",
+    "static/media/tanish2.jpg": "/Portfolio/static/media/tanish2.d7b26d6b80df755ccce2.jpg",
+    "static/media/p2.jpg": "/Portfolio/static/media/p2.953d0081be4cda51345b.jpg",
+    "static/media/tanish1.jpg": "/Portfolio/static/media/tanish1.8cdf2d63fc5326a75e7f.jpg",
+    "static/media/p6.jpg": "/Portfolio/static/media/p6.984830adb99d973564f0.jpg",
+    "static/media/p8.jpg": "/Portfolio/static/media/p8.3dd57ff88a1295d342dd.jpg",
+    "static/media/p7.jpg": "/Portfolio/static/media/p7.e4cdf262dae3f9564ec3.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.63c801f8.css.map": "/Portfolio/static/css/main.63c801f8.css.map",
+    "main.61bbb17e.js.map": "/Portfolio/static/js/main.61bbb17e.js.map",
+    "373.96184f55.chunk.js.map": "/Portfolio/static/js/373.96184f55.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63c801f8.css",
+    "static/js/main.61bbb17e.js"
+  ]
+}
