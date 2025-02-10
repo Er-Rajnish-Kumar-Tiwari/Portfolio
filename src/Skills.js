@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Tana from './tanish.jpg';
 import Header from './Header.js';
 
@@ -6,38 +6,45 @@ export default function Skills() {
   return (
     <div>
       <Header />
-      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "50px", gap: "100px" }}>
-
+      <div style={{
+        display: "flex",
+        flexDirection: window.innerWidth <= 768 ? "column" : "row",
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: "50px",
+        gap: "50px"
+      }}>
         <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
           <img
             src={Tana}
             alt="Tanish"
             style={{
               borderRadius: "50%",
-              height: "800px",
-              width: "750px",
+              height: window.innerWidth <= 768 ? "300px" : "800px",
+              width: window.innerWidth <= 768 ? "300px" : "750px",
               objectFit: "cover",
               border: "2px solid grey",
               marginLeft: "50px",
-              marginBottom:"300px"
+              marginBottom: window.innerWidth <= 768 ? "30px" : "300px"
             }}
           />
         </div>
-        
+
         <div style={{
           backgroundColor: "#f8d7da",
           color: "black",
           padding: "30px",
           borderRadius: "15px",
-          width: "30%",
+          width: window.innerWidth <= 768 ? "80%" : "30%",
           maxWidth: "800px",
           boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
           lineHeight: "1.6",
           fontSize: "1.1em",
           marginBottom: "30px",
-          marginRight: "200px",
+          marginRight: window.innerWidth <= 768 ? "0" : "200px",
           border: "2px brown solid"
         }}>
+
           
       <h2 style={{ textAlign: "center", fontSize: "2.5em", color: "red", textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)',borderBottom:"2px red solid"}}><b>Skills</b></h2>
           <div>
