@@ -8,13 +8,138 @@ import Tan5 from './p5.jpg'
 import Tan6 from './p6.jpg'
 import Tan7 from './p7.jpg'
 import Tan8 from './p8.jpg'
+import Tan9 from './p9.jpg'
+import Tan10 from './p10.jpg'
 
 export default function Projects() {
   return (
     <div>
       <Header />
 
-      <h2 style={{ textAlign: "center", fontSize: "2.5em", color: "maroon", textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', borderBottom: "2px grey solid" }}><b>Projects</b></h2>
+      <h2 style={{ textAlign: "center", fontSize: "2.5em", color: "maroon", textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', borderBottom: "2px grey solid", paddingBottom:"10px" }}><b>Projects</b></h2>
+
+      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "50px", gap: "100px" }}>
+        <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
+          <img
+            src={Tan9}
+            alt="Tanish"
+            style={{
+              height: "660px",
+              width: "700px",
+              objectFit: "cover",
+              border: "2px solid red",
+              borderRadius: "25px",
+              marginLeft: "50px"
+            }}
+          />
+        </div>
+
+        <div style={{
+          backgroundColor: "#f8d7da",
+          color: "black",
+          padding: "30px",
+          borderRadius: "15px",
+          width: "80%",
+          maxWidth: "800px",
+          boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
+          lineHeight: "1.6",
+          fontSize: "1.1em",
+          marginBottom: "30px",
+          marginRight: "200px",
+          border: "2px brown solid"
+        }}>
+
+          <div>
+
+            <div>
+              <h3 style={{ color: "maroon ", textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)' }}><b>Project Name:-</b></h3>
+              <p><b>Quiz App</b></p>
+            </div>
+
+            <div>
+              <h4 style={{ color: "grey", textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)' }}><b>Project Description:-</b></h4>
+              <p><b>The Quiz App is an interactive and engaging platform designed to help users test and improve their knowledge on computer topics. The app offers a seamless experience by providing multiple-choice questions such as technology. Users can select their desired topic and view their scores in real-time.</b></p>
+            </div>
+
+            <div>
+              <h4 style={{ color: "grey", textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)' }}><b>Skills/Technologies Used:-</b></h4>
+              <li style={{ listStyle: "inside" }}><b>HTML</b></li>
+              <li style={{ listStyle: "inside" }}><b>CSS</b></li>
+              <li style={{ listStyle: "inside" }}><b>JavaScript</b></li>
+              <li style={{ listStyle: "inside" }}><b>React-js</b></li>
+              <li style={{ listStyle: "inside" }}><b>Bootstrap</b></li>
+            </div>
+
+            <div>
+              <h4 style={{ color: "grey", textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)' }}>Project Link</h4>
+              <a style={{textDecoration:"none"}} href="https://er-rajnish-kumar-tiwari.github.io/Quiz-App/">Quiz App Link</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "50px", gap: "100px" }}>
+        <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
+          <img
+            src={Tan10}
+            alt="Tanish"
+            style={{
+              height: "660px",
+              width: "700px",
+              objectFit: "cover",
+              border: "2px solid red",
+              borderRadius: "25px",
+              marginLeft: "50px"
+            }}
+          />
+        </div>
+
+        <div style={{
+          backgroundColor: "#f8d7da",
+          color: "black",
+          padding: "30px",
+          borderRadius: "15px",
+          width: "80%",
+          maxWidth: "800px",
+          boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
+          lineHeight: "1.6",
+          fontSize: "1.1em",
+          marginBottom: "30px",
+          marginRight: "200px",
+          border: "2px brown solid"
+        }}>
+
+          <div>
+
+            <div>
+              <h3 style={{ color: "maroon ", textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)' }}><b>Project Name:-</b></h3>
+              <p><b>TodoList App</b></p>
+            </div>
+
+            <div>
+              <h4 style={{ color: "grey", textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)' }}><b>Project Description:-</b></h4>
+              <p><b>The To-Do List App is a simple yet powerful productivity tool designed to help users organize and manage their daily tasks and goals efficiently. This app enables users to create, prioritize, and track tasks, ensuring that nothing is forgotten and everything is completed on time. With a clean and intuitive user interface, users can easily add new tasks, set deadlines, mark tasks as completed, and categorize them for better organization.</b></p>
+            </div>
+
+            <div>
+              <h4 style={{ color: "grey", textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)' }}><b>Skills/Technologies Used:-</b></h4>
+              <li style={{ listStyle: "inside" }}><b>HTML</b></li>
+              <li style={{ listStyle: "inside" }}><b>CSS</b></li>
+              <li style={{ listStyle: "inside" }}><b>JavaScript</b></li>
+              <li style={{ listStyle: "inside" }}><b>React-js</b></li>
+              <li style={{ listStyle: "inside" }}><b>Bootstrap</b></li>
+            </div>
+
+            <div>
+              <h4 style={{ color: "grey", textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)' }}>Project Link</h4>
+              <a style={{textDecoration:"none"}} href="https://er-rajnish-kumar-tiwari.github.io/Todo/">TodoList App Link</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "50px", gap: "100px" }}>
 
         <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
